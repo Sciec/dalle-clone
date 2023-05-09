@@ -81,5 +81,13 @@ Secondly, create Home and CreatePost page inside the pages dir and also index.js
 
 
 ***
-## 2. 
+## 2. Do the Homo page
+
+* import useState, useEffect from react in addition to React.
+* Create component folder and add Card.jsx, FormField.jsx, Loader.jsx.
+* Create functional component using ' rafce ' on Card and FormField, but add the Loader from the gist [here](assets-from-tutorial/tutorial-assets.md) !
+* Create index.js under the same directory to export the jsx files.
+* Then, setup the Home page, see commits.
+
+
 
