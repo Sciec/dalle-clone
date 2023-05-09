@@ -1,0 +1,31 @@
+MERN Stack project to push to github
+= = = = = = = = = = = = = = = = = = =
+
+1. Create your parent folder.
+2. Create each folder for the client and server sides.
+
+3. Create a React application in the client folder.
+
+4. Remove the .git directory from the client if available.
+
+5. Move .gitignore from the client to parent folder.
+
+6. Initialise git in the parent folder( git init )
+
+= = = = = = = = = = = = = = = = = = =
+Reference- https://dev.to/birdy/mern-stack-project-setup-to-push-to-github-4l5e
+
+
+Note- 
+1. To change the name of the branch from the master to main in the local repo, we use -M flag.
+ 
+  ' git branch -M main '
+
+2. When you change something in the remote repository and is not yet reflected to local repo, you must pull the changes before pushing anything.
+
+  ' git pull --rebase origin main '
+
+then all the changes made to local repo is can be pushed to the remote repository.
+
+  ' git push -u origin main '
+
