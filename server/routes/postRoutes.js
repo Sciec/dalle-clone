@@ -14,6 +14,8 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
+// Get route
+
 router.route('/').get(async (req, res) => {
   try {
     const posts = await Post.find({});
@@ -22,6 +24,8 @@ router.route('/').get(async (req, res) => {
     res.status(500).json({ success: false, message: 'Fetching posts failed, please try again' });
   }
 });
+
+// Create a post route
 
 router.route('/').post(async (req, res) => {
   try {
