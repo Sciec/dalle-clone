@@ -23,5 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 
+*/node_modules
+node_modules
+
+*.env
+*env.local
+.env
+
 # assets-images dir
 assets-from-tutorial/images
